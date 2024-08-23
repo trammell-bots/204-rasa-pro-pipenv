@@ -1,0 +1,12 @@
+[[source]]
+url = "https://pypi.python.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[[source]]
+url = "https://europe-west3-python.pkg.dev/rasa-releases/rasa-pro-python/simple"
+verify_ssl = false
+name = "rasa-pro"
+
+[packages]
+rasa-pro = {version="*", index="rasa-pro"}
